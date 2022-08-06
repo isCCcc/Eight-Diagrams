@@ -2,9 +2,8 @@ let html = document.querySelector('#html');
 let style = document.querySelector('#style');
 let div = document.querySelector('#div')
 
-let str = `/* 我是一名前端新人^_^
- * 新人入坑，还请多多关照！
- * 接下来为大家展示我画的一个八卦图
+let str = `/* 我是 Blanche
+ * 接下来为大家动态地展示我画的一个八卦图
  **/
 
 /*
@@ -55,7 +54,7 @@ let str = `/* 我是一名前端新人^_^
 }
 
 /* 
- * 最后，进一步渲染八卦图，完成一幅太极阴阳图（阴阳鱼互纠太极图）。
+ * 最后，使用渐变的镜像功能，进一步渲染八卦图，完成一幅太极阴阳图（阴阳鱼互纠太极图）。
  */
 #div::before {
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);
