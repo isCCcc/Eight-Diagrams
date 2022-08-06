@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::before {
+    box-sizing: border-box;
+}
+
+*::after {
+    box-sizing: border-box;
+}
+
+#html {
+    word-break: break-all;
+
+}
+
+#div {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+#div::before,
+#div::after {
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+@media(max-width: 500px) {
+    #html {
+        height: 70vh;
+        overflow: auto;
+        padding: 10px;
+    }
+
+    #divWrapper {
+        height: 30vh;
+        position: relative;
+        background-color: rgb(249, 249, 249);
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    }
+
+    #div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
