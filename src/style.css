@@ -21,6 +21,11 @@
     position: fixed;
     left: 50%;
     top: 20px;
+
+}
+
+#div {
+    position: absolute;
 }
 
 #div::before,
@@ -40,12 +45,13 @@
     #divWrapper {
         height: 30vh;
         position: relative;
+        left: 0;
+        bottom: 0;
         background-color: rgb(249, 249, 249);
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
     }
 
     #div {
-        position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);

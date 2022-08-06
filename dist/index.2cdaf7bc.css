@@ -18,6 +18,10 @@
   left: 50%;
 }
 
+#div {
+  position: absolute;
+}
+
 #div:before, #div:after {
   content: "";
   display: block;
@@ -35,11 +39,12 @@
     height: 30vh;
     background-color: #f9f9f9;
     position: relative;
+    bottom: 0;
+    left: 0;
     box-shadow: 0 0 3px #00000080;
   }
 
   #div {
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
