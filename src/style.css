@@ -14,7 +14,7 @@
 
 #html {
     word-break: break-all;
-
+    padding: 10px;
 }
 
 #divWrapper {
@@ -39,7 +39,6 @@
     #html {
         height: 70vh;
         overflow: auto;
-        padding: 10px;
     }
 
     #divWrapper {

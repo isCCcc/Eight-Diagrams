@@ -10,6 +10,7 @@
 
 #html {
   word-break: break-all;
+  padding: 10px;
 }
 
 #divWrapper {
@@ -31,7 +32,6 @@
 @media (max-width: 500px) {
   #html {
     height: 70vh;
-    padding: 10px;
     overflow: auto;
   }
 

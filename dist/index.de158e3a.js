@@ -12,7 +12,7 @@ let str = `/* 我是一名前端新人^_^
 #div{
     width: 200px;
     height: 200px;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 /* 
@@ -77,7 +77,7 @@ let step = ()=>{
         window.scrollTo(0, 99999);
         html.scrollTo(0, 99999);
         step();
-    }, 0);
+    }, 100);
 };
 step();
 
