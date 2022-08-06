@@ -12,10 +12,10 @@
   word-break: break-all;
 }
 
-#div {
+#divWrapper {
   position: fixed;
   top: 20px;
-  right: 20px;
+  left: 50%;
 }
 
 #div:before, #div:after {
